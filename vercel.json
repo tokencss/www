@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/schema",
+      "destination": "https://schema.tokencss.com/"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/schema@(?<version>.*)",
+      "destination": "https://schema.tokencss.com/v/:version/schema.json"
+    }
+  ]
+}
