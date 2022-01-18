@@ -7,7 +7,7 @@
   ],
   "rewrites": [
     {
-      "source": "/schema@(?<version>.*)",
+      "source": "/schema@:version(\\d\\.\\d\\.\\d)",
       "destination": "https://schema.tokencss.com/v/:version/schema.json"
     }
   ]
