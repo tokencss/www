@@ -1,6 +1,10 @@
 {
   "redirects": [
     {
+      "source": "/schema%40:version(\\d\\.\\d\\.\\d)",
+      "destination": "/schema@:version"
+    },
+    {
       "source": "/schema",
       "destination": "https://schema.tokencss.com/"
     }
