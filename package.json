@@ -9,6 +9,9 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.22.14"
+    "astro": "^1.2.6"
+  },
+  "dependencies": {
+    "@tokencss/astro": "^0.0.3"
   }
 }
