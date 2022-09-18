@@ -1,0 +1,5 @@
+{
+  "editor.colorDecorators": false,
+  "astro.css.documentColors.enabled": false,
+  "svelte.plugin.css.colorPresentations.enable": false
+}
