@@ -12,6 +12,15 @@
     "astro": "^1.2.6"
   },
   "dependencies": {
-    "@tokencss/astro": "^0.0.3"
+    "@tokencss/astro": "^0.0.4",
+    "@tokencss/core": "^0.1.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "postcss",
+        "postcss-*"
+      ]
+    }
   }
 }

@@ -1,0 +1,11 @@
+.container {
+  padding: md;
+  margin: lg auto;
+}
+
+.box {
+  background: primary;
+  width: full;
+  height: 3xl;
+  border-radius: md;
+}
