@@ -17,6 +17,8 @@
   --astro-code-token-keyword: var(--color-gray-5);
   --astro-code-color-text: var(--color-gray-7);
   --astro-code-token-constant: var(--color-lime-6);
+
+  --astro-code-token-comment: var(--color-gray-6);
 }
 
 .astro-code span[style="color: var(--astro-code-token-constant)"]:nth-child(2) {
