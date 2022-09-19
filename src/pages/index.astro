@@ -199,7 +199,12 @@ const meta = {
         padding-top: lg;
         padding-bottom: lg;
         display: flex;
+        flex-direction: column;
         gap: md;
+
+        @media (min-width: 480px) {
+          flex-direction: row;
+        }
 
         & a {
           font-weight: 700;
