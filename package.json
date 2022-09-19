@@ -22,5 +22,6 @@
         "postcss-*"
       ]
     }
-  }
+  },
+  "license": "MIT"
 }

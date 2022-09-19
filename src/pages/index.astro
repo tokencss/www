@@ -4,6 +4,7 @@ import { Code } from "astro/components";
 import Logo from "../components/Logo.astro";
 import Head from "../components/Head.astro";
 import sample from "./_code.txt?raw";
+import Footer from "../components/Footer.astro";
 
 const meta = {
   title: "Token CSS",
@@ -117,6 +118,8 @@ const meta = {
           </p>
         </article>
       </main>
+
+      <Footer />
     </div>
     <style>
       body {
@@ -125,7 +128,6 @@ const meta = {
         display: flex;
         flex-direction: column;
         color: gray.7;
-        padding-bottom: 4xl;
       }
 
       main {
@@ -137,6 +139,7 @@ const meta = {
         min-height: screen;
         max-width: 65ch;
         margin: 0 auto;
+        padding-bottom: 4xl;
       }
       nav {
         margin-top: calc(lg * -1);
